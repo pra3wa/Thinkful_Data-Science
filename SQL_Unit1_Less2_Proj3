@@ -2,6 +2,7 @@
 
 
 # 1 The IDs and durations for all trips of duration greater than 500, ordered by duration.
+
 SELECT
     trip_id,
     duration
@@ -13,6 +14,7 @@ ORDER BY duration ASC
 
 
 # 2 Every column of the stations table for station id 84.
+
 SELECT
 	*
 FROM 
@@ -22,6 +24,7 @@ WHERE
         
 
 # 3 The min temperatures of all the occurrences of rain in zip 94301.
+
 SELECT
 	mintemperaturef
 FROM 
