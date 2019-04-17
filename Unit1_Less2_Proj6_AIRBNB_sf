@@ -10,7 +10,8 @@ It is available 18 days out of the year.
 	*
 FROM
 	sfo_listings
-ORDER BY price DESC'''
+ORDER BY price DESC
+'''
 
 2.) What neighborhoods seem to be the most popular?
 A2:The three most popular neighbourhoods are Mission with 694 listings, 
@@ -23,6 +24,7 @@ Western Addition with 506 listings, and South of Market with 504 listings.
 FROM
 	sfo_listings
 GROUP BY 1
-ORDER BY COUNT DESC'''
+ORDER BY COUNT DESC
+'''
 
 3.) What time of year is the cheapest time to go to San Francisco? What about the busiest?
