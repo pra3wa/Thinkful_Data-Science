@@ -5,7 +5,8 @@ and a hot tub. The host name is Sarah and the price is $10,000. The house is in 
 neighborhood of Western Addtion and has a minimum of 2 nights rental with 3 reviews.
 It is available 18 days out of the year. 
 
-'''SELECT
+'''SQL
+SELECT
 	*
 FROM
 	sfo_listings
