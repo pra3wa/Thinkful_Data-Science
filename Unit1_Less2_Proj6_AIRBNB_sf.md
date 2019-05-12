@@ -63,4 +63,4 @@ FROM
 GROUP BY listing_month
 ORDER BY avg ASC
 ```
-Answer #2: The cheapest time to go to San Francisco is January, with an average AirBnB listing price of $212.51.
+Answer #2: 
