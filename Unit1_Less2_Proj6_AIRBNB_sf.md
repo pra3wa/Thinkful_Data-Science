@@ -18,7 +18,7 @@ ORDER BY price DESC
 
 2.) What neighborhoods seem to be the most popular?
 
-Answer:The three most popular neighbourhoods are Mission with 694 listings, 
+Answer: Popular in this case is assumed to be the neighborhoods with the most number of listings. With this assumption in mind, the three most popular neighbourhoods are Mission with 694 listings, 
 Western Addition with 506 listings, and South of Market with 504 listings.
 
 
