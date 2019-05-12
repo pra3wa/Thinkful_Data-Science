@@ -35,3 +35,32 @@ ORDER BY COUNT DESC
 ```
 
 3.) What time of year is the cheapest time to go to San Francisco? What about the busiest?
+
+Answer #1: The cheapest time to go to San Francisco is assumed to be the month with the lowest average listing. With this in mind, the cheapest time to go to San Francisco is January, with an average AirBnB listing price of $212.51.
+
+```SQL
+WITH 
+	final_table
+AS(
+WITH 
+	clean_table
+AS (
+SELECT
+	EXTRACT (month from calender_date) "listing_month",
+	REPLACE (REPLACE(REPLACE(price,'$',''),'.00', ''),',','') "clean_price"
+FROM 
+	sfo_calendar)
+SELECT
+	listing_month,
+CAST (clean_price AS int)
+FROM
+	clean_table)
+SELECT
+	listing_month,
+	AVG(clean_price)
+FROM
+	final_table
+GROUP BY listing_month
+ORDER BY avg ASC
+```
+Answer #2: The cheapest time to go to San Francisco is January, with an average AirBnB listing price of $212.51.
