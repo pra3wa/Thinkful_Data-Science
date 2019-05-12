@@ -64,3 +64,15 @@ GROUP BY listing_month
 ORDER BY avg ASC
 ```
 Answer #2: 
+
+```SQL
+SELECT 
+	EXTRACT (month from calender_date) "listing_month",
+	COUNT(*) AS available
+FROM
+	sfo_calendar
+WHERE
+	available = 't'
+GROUP BY listing_month
+ORDER BY available ASC
+```
