@@ -1,7 +1,8 @@
 --Questions
 
 1.) What's the most expensive listing? What else can you tell me about the listing?
-A1:The most expensive listing is a Full House Victorian (7,500 sqft) with 4 floors 
+
+Answer: The most expensive listing is a Full House Victorian (7,500 sqft) with 4 floors 
 and a hot tub. The host name is Sarah and the price is $10,000. The house is in the 
 neighborhood of Western Addtion and has a minimum of 2 nights rental with 3 reviews.
 It is available 18 days out of the year. 
@@ -16,7 +17,8 @@ ORDER BY price DESC
 ```
 
 2.) What neighborhoods seem to be the most popular?
-A2:The three most popular neighbourhoods are Mission with 694 listings, 
+
+Answer:The three most popular neighbourhoods are Mission with 694 listings, 
 Western Addition with 506 listings, and South of Market with 504 listings.
 
 
