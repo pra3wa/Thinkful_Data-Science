@@ -11,6 +11,7 @@ SELECT
 	*
 FROM
 	sfo_listings
+	
 ORDER BY price DESC
 ```
 
@@ -25,7 +26,9 @@ SELECT
 	COUNT(*)
 FROM
 	sfo_listings
+	
 GROUP BY 1
+
 ORDER BY COUNT DESC
 ```
 
